@@ -33,4 +33,4 @@ spec:
             requests:
               memory: 512Mi
       imagePullSecrets:
-        - name: rahulazure.test
+        - name: secret/rahulazure.test
