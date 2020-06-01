@@ -1,0 +1,13 @@
+questions:
+- variable: app.image
+  default: "medlineeurope.azurecr.io/medlineeu/dot-net/catalog-api"
+  description: "Docker Image"
+  label: Docker Image
+  type: string
+  group: "Base Config"
+
+- variable: app.hostName
+  default: klevdevwso2ap1.medline.com
+  label: Hostname
+  type: hostname
+  group: "Base Config"

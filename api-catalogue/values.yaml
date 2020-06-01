@@ -1,0 +1,9 @@
+app:
+  name: test-api-catalogue
+  hostName: klevdevwso2ap1.medline.com
+  image: medlineeurope.azurecr.io/medlineeu/dot-net/catalog-api
+  pullPolicy: Always
+  svcport: 80
+  tgtport: 8080
+  replicaCount: 1
+  environment: development
